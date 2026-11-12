@@ -13,7 +13,7 @@ with CP-MP2/aug-cc-pVTZ energies, and S1 from TD-wB97X-D excitation energies sca
 | `results/` | collected grids (`.dat`) and excitation energies used for the published numbers |
 
 Gaussian logs and checkpoint files are not included. Note: some scripts contain absolute paths of the original
-working directories (`/home/claude/tunnel/...`); adjust them to your layout before rerunning.
+working directories (`/home/rama/tunnel/...`); adjust them to your layout before rerunning.
 
 Example (phenol–water, MP2-corrected S0):
     cd rotor && MP2MODEL=ext python3 dvr3d.py --grid2d ../results/phenol_water/grid_pt.dat \
